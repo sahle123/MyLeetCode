@@ -1,0 +1,32 @@
+
+Disjoint Union Sets (DSU or Union Find).
+    - Use cases:
+    - Complexity:
+
+Depth-first Search (DFS):
+    - Use cases:
+    - Complexity:
+
+Bread-first Search (BFS):
+    - Use cases:
+    - Complexity:
+
+Binary Search:
+    - Use cases:
+    - Complexity:
+
+Hash Map:
+    - Use cases: Anytime we need key/value pairs. Great for keeping track of how many of some key we have.
+    - Complexity: O(1) lookup, O(1) insertion, O(n) size.
+
+Hash Set:
+    - Use cases: Anytime we need to keep track of a distinct set of items. Similar to a Hash Map, but narrower applications.
+    - Complexity: O(1) lookup, O(1) insertion, O(n) size.
+
+Floyd's tortoise and hare algorithm:
+    - Use cases: Perfect for finding cycles in a linked list or any directional graph.
+    - Complexity: 
+
+Memoization:    
+    - Use cases:
+    - Complexity: 
