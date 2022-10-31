@@ -1,5 +1,6 @@
 // 142. Linked List Cycle II
-// Tags: 2 pointer, Floyd's cycle detection algorithm.
+// Tags: 2 pointer, Floyd's cycle detection algorithm, linked list
+//
 /**
  * Definition for singly-linked list.
  * public class ListNode {
