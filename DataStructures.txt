@@ -8,8 +8,14 @@ Depth-first Search (DFS):
     - Complexity:
 
 Bread-first Search (BFS):
-    - Use cases:
+    - Use cases: Anytime in graphs or arrays where you need to check neighbors first in a sequential (or recursive?) pattern. Some examples below:
+        * Flood fill.
+        * Level-order n-ary tree traversal.
+        * Shortest path from root to some node in a tree.
+
     - Complexity:
+        * Time: O(V + E), where V = vertices and E = edges.
+        * Space: O(V). This is so because we need to allocate a queue for each vertex.
 
 Binary Search:
     - Use cases:
@@ -25,6 +31,9 @@ Hash Set:
 
 Floyd's tortoise and hare algorithm:
     - Use cases: Perfect for finding cycles in a linked list or any directional graph.
+        * Finding loops in graphs.
+        * Finding the node in a graph where the loop begins.
+
     - Complexity: 
 
 Memoization:    
