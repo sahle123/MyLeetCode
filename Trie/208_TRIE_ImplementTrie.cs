@@ -2,9 +2,15 @@
 // Tags: prefix tree, fundamentals
 // Time: O(m)
 // Space: O(m)
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.Insert(word);
+ * bool param_2 = obj.Search(word);
+ * bool param_3 = obj.StartsWith(prefix);
+ */
 public class Trie 
 {
-
     private Node _root;
     
     public Trie() 
@@ -88,19 +94,3 @@ public class Trie
         }
     }
 }
-
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie obj = new Trie();
- * obj.Insert(word);
- * bool param_2 = obj.Search(word);
- * bool param_3 = obj.StartsWith(prefix);
- */
-
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie obj = new Trie();
- * obj.Insert(word);
- * bool param_2 = obj.Search(word);
- * bool param_3 = obj.StartsWith(prefix);
- */

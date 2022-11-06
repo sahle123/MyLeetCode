@@ -1,38 +1,43 @@
+// 733. Flood Fill
+// Tags: BFS
+
 public class Solution 
 {
     // Assumes that the jagged array is the same length for
     // all elements.
     public int[][] FloodFill(int[][] image, int sr, int sc, int color) 
     {
-        int originalColor = image[sr][sc];
-        
-        System.Console.WriteLine("Starting...");
-        
+        // Edge cases.
+        if(image == null)
+            return null;
+        if(image[0] == null)
+            return null;
+
         Queue<Coordinate> coords = new();
         coords.Enqueue(new Coordinate(sc, sr));
-        
+
+        int originalColor = image[sr][sc];
+
         while(coords.Count > 0)
-            _4waySearch(ref coords, ref image, originalColor, color);
-        
+            _4WaySearch(ref coords, ref image, originalColor, color);
+
         return image;
     }
-    
-    private static void _4waySearch(ref Queue<Coordinate> queue, ref int[][] image, int originalColor, int newColor)
+
+    private static void _4WaySearch(ref Queue<Coordinate> queue, ref int[][] image, int originalColor, int newColor)
     {
         Coordinate coord = queue.Dequeue();
-        
-        System.Console.WriteLine($"{coord.x.ToString()}, {coord.y.ToString()}");
-        
-        // Edge case to prevent infinite loops
+
+        // Edge case
         if(image[coord.y][coord.x] == newColor)
             return;
-        
+
         // If color is same as the original, change to the new color
         if (image[coord.y][coord.x] == originalColor)
             image[coord.y][coord.x] = newColor;
         else
             return;
-        
+
         // Search 1 up, down, left, right
         if ((coord.x - 1) >= 0)
             queue.Enqueue(new Coordinate((coord.x - 1), coord.y));

@@ -1,5 +1,6 @@
 // 1254. Number of closed islands
-// Tags: DFS 
+// Tags: DFS
+
 public class Solution
 {
     // Since this is a jagged array, this solution assumes

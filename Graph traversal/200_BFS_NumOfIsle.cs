@@ -1,4 +1,6 @@
-// This is a BFS solution since we are using a Queue<T>.
+// 200. Number of Islands
+// Tags: BFS
+
 public class Solution
 {
     private const char _searchedLand = 's';
@@ -49,7 +51,6 @@ public class Solution
             queue.Enqueue(new Coordinate(coord.x, (coord.y + 1)));
     }
 }
-
 
 public class Coordinate
 {
