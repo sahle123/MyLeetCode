@@ -45,7 +45,7 @@ public class Solution
             & _IsEdgeAccessible(ref grid, i, j - 1);
     }
     
-    // Not in use
+    // DEV-NOTE: Not in use.
     public class Tracker
     {
         public int Count { get; set; }

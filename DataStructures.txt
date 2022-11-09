@@ -43,3 +43,7 @@ Memoization:
 Trie (Prefix tree):
     - Use cases: Any time words are involved, especially with regards to auto-complete/word filling.
     - Complexity:
+
+Monotonic Stack:
+    - Use cases: 
+    - Complexity: 

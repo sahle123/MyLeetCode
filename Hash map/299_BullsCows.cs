@@ -1,5 +1,5 @@
 // 299. Bulls and Cows
-// Tags:
+// Tags: hash map
 //
 
 public class Solution 
