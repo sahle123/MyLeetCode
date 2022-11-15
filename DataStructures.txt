@@ -46,4 +46,8 @@ Trie (Prefix tree):
 
 Monotonic Stack:
     - Use cases: 
-    - Complexity: 
+    - Complexity:
+
+Priority Queue (Heap):
+    - Use cases:
+    - Complexity:
