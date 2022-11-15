@@ -1,11 +1,18 @@
 
 Disjoint Union Sets (DSU or Union Find).
-    - Use cases:
+    - Use cases: Anytime we need to create distinct groups in some given graph.
+        * Keep track connected components in an undirected graph.
+
     - Complexity:
+        * Space: O(n)
+        * Find: 
+        * Union: 
+
 
 Depth-first Search (DFS):
     - Use cases:
     - Complexity:
+
 
 Bread-first Search (BFS):
     - Use cases: Anytime in graphs or arrays where you need to check neighbors first in a sequential (or recursive?) pattern. Some examples below:
@@ -17,17 +24,21 @@ Bread-first Search (BFS):
         * Time: O(V + E), where V = vertices and E = edges.
         * Space: O(V). This is so because we need to allocate a queue for each vertex.
 
+
 Binary Search:
     - Use cases:
     - Complexity:
+
 
 Hash Map:
     - Use cases: Anytime we need key/value pairs. Great for keeping track of how many of some key we have.
     - Complexity: O(1) lookup, O(1) insertion, O(n) size.
 
+
 Hash Set:
     - Use cases: Anytime we need to keep track of a distinct set of items. Similar to a Hash Map, but narrower applications.
     - Complexity: O(1) lookup, O(1) insertion, O(n) size.
+
 
 Floyd's tortoise and hare algorithm:
     - Use cases: Perfect for finding cycles in a linked list or any directional graph.
@@ -36,13 +47,16 @@ Floyd's tortoise and hare algorithm:
 
     - Complexity: 
 
+
 Memoization:    
     - Use cases:
     - Complexity:
 
+
 Trie (Prefix tree):
-    - Use cases: Any time words are involved, especially with regards to auto-complete/word filling.
+    - Use cases: Anytime words are involved, especially with regards to auto-complete/word filling.
     - Complexity:
+
 
 Monotonic Stack:
     - Use cases: 

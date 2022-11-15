@@ -31,10 +31,14 @@ public class Solution
         return true;
     }
 
-    // General Disjoint Union Set class.
+    // Basic Disjoint Union Set class.
     public class DSU
     {
+        // This is the 'representative node' for a group. When we Find() some group,
+        // the root is what gets returned.
         private int[] _root;
+
+        // The size of this instanced set.
         private int _n { get; set; }
 
         // Represents the number of groups.
