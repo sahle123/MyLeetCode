@@ -18,28 +18,28 @@
             return 1;
         }
         
-        let mut lowerBound: i32 = 1;
-        let mut upperBound: i32 = n;
+        let mut lower_bound: i32 = 1;
+        let mut upper_bound: i32 = n;
         let mut mid: i32;
-        let mut ourGuess: i32;
+        let mut our_guess: i32;
         
-        while lowerBound < upperBound {
-            mid = (lowerBound + ((upperBound - lowerBound + 1) / 2));
-            ourGuess = guess(mid);
+        while lower_bound < upper_bound {
+            mid = (lower_bound + ((upper_bound - lower_bound + 1) / 2));
+            our_guess = guess(mid);
             
-            if ourGuess == 0 {
+            if our_guess == 0 {
                 return mid;
             } 
-            else if ourGuess == -1 {
-                upperBound = mid - 1;
+            else if our_guess == -1 {
+                upper_bound = mid - 1;
             } 
             else {
-                lowerBound = mid;
+                lower_bound = mid;
             }
         }
         
         // Edge case where the final lower bound
         // value is the answer.
-        return lowerBound;
+        lower_bound
     }
 }

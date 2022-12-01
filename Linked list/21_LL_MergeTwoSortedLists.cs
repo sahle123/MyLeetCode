@@ -1,7 +1,9 @@
-// 21. Merged Two Sorted Lists
+// 21. Merge Two Sorted Lists
 // Tags: linked lists, fundamentals
+//
 // Time: O(n + m)
 // Space: O(n)
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,7 +29,7 @@ public class Solution
         ListNode head = new(int.MinValue); 
         ListNode result = head;
         
-        // Traverse linked lists until both of them is null.
+        // Traverse linked lists until one of them is null.
         while(l1 != null && l2 != null)
         {
             if(l2.val <= l1.val)
