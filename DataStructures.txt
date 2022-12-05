@@ -64,5 +64,20 @@ Monotonic Stack:
 
 
 Priority Queue (Heap):
-    - Use cases:
+    - Use cases: 
+        * For Dijlstra's shortest path algorithm.
+        * Anytime you need to dynamically fetch the 'next best' or 'next worst' element.
+        * Huffman coding.
+        * Best First Search algorithm.
+        * Prim's Minimum Spanning Tree (MST) algorithm in directed graphs.
+        * Generally useful in graph theory algorithms.
+
     - Complexity:
+        * Binary Heap construction: O(n)
+        * Polling: O(log(n))
+        * Peeking: O(1)
+        * Adding: O(log(n))
+        * Naive removing: O(n)
+        * Advanced removing w/ hash table: O(log(n))
+        * Naive contains: O(n)
+        * Contains check w/ hash table: O(1)
