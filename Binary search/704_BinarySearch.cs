@@ -1,5 +1,7 @@
 // 704. Binary Search
 // Tags: binary search, fundamentals
+//
+
 public class Solution 
 {
     // Assumes array is already sorted (ASC).
