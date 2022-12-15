@@ -1,5 +1,6 @@
 // 278. First Bad Version
 // Tags: binary search
+//
 
 // The IsBadVersion() API is defined in the parent class VersionControl.
 // bool IsBadVersion(int version);
