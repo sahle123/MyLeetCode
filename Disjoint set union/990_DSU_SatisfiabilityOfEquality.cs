@@ -1,5 +1,6 @@
 // 990. Satisfiability of equality equations
 // Tags: disjoint set union, union find
+//
 
 public class Solution 
 {

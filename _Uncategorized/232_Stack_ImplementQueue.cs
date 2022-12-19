@@ -1,5 +1,6 @@
 // 232. Implement Queue using Stacks
-// Tags: Quirky, stack
+// Tags: quirky, stack
+//
 
 public class MyQueue 
 {
