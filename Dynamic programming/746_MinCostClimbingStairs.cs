@@ -1,5 +1,5 @@
 // 746. Min Cost Climbing Stairs
-// Tags: dynamic programming
+// Tags: dynamic programming, greedy
 //
 public class Solution 
 {
