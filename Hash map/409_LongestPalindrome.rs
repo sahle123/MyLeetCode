@@ -13,7 +13,7 @@ impl Solution {
             *dict.entry(c).or_insert(0) += 1;
         });
 
-        // Count all the even lengthed and odd lengthed 
+        // Count all the even length and odd length
         // (greater than or equal to 3) entries.
         let mut count = dict.values().fold(0, |acc, &v| {
             acc + match v % 2 == 0 {
