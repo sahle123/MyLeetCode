@@ -20,8 +20,8 @@ public class Solution
             _cache = new int[n];
         
         // Uninitialized C# array indexes default to 0.
-        // Therefore, it is safe to assume that 0-valued
-        // indexes are uninitialized.
+        // Therefore, it is safe to assume that uninitialized
+        // indexes are 0-valued.
         if(_cache[n - 1] == 0)
             _cache[n - 1] = ClimbStairs(n - 1) + ClimbStairs(n - 2);
         

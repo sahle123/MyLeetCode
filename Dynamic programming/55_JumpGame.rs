@@ -31,7 +31,7 @@ impl Solution {
         }
 
         if dist <= nums[0] { 
-            return true 
+            return true;
         }
         false
     }

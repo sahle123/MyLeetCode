@@ -69,7 +69,6 @@ public class Solution
             return;
         
         shortestDists[row, col] = dist;
-        q.Enqueue((row, col, dist));
-        
+        q.Enqueue((row, col, dist)); 
     }
 }
